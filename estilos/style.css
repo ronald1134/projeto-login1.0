@@ -121,6 +121,15 @@ form > a.botao{
     border-radius: 5px;
     padding-top: 9px;
     margin-top: 5px;
+    transition-duration: .1s;
+    cursor: pointer;
+}
+
+form > a.botao:hover{
+    text-decoration: underline;
+    color: white;
+    padding: 6px;
+
 }
 
 form > a.botao > span{
