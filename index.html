@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
     
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=lock" />
 </head>
 <body>
     <main>
@@ -23,13 +24,19 @@
                 <form action="login.php" method="post" autocomplete="on">
 
                     <div class="campo">
+
                         <span class="material-symbols-outlined"> face </span>
+
+
                         <input type="email" name="login" id="ilogin" placeholder="seu e-mail" required autocomplete="email"  maxlength="30">
                         <label for="ilogin">Login</label>
                     </div>
 
                     <div class="campo">
-                        <span class="material-symbols-outlined"> face </span>
+
+                        <span class="material-symbols-outlined"> lock </span>
+
+
                         <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" minlength="8" maxlength="20" required>
                         <label for="isenha">Senha</label>
                     </div>
