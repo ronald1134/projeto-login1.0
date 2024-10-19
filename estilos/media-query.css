@@ -1,5 +1,7 @@
 
 @charset "UTF-8";
+
+/*Versão para tablet*/
 @media screen and (min-width:768px) and (max-width:992px) {
     section#login{
         width: 80vw;
@@ -19,6 +21,7 @@ section#login > div#formulario{
 }
 }
 
+/*Versão para telas maiores*/
 @media screen and (min-width:992px)  {
     body{
         background-image: linear-gradient(to top, #8b6fc4, #6719b1);
